@@ -13,3 +13,9 @@ Riferimenti:
 - https://developers.italia.it/it/daf/
 - https://developers.italia.it/it/pagopa/
 
+# Task
+[ ] Definizione Metadati
+[ ] Definizione Dataset
+[ ] Realizzazione converter RT da XML in JSON
+[ ] Realizzazione testcase per alimentazione datalake
+[ ] Realizzazione validazione testcase 
