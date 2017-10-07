@@ -1,8 +1,8 @@
 package it.govpay.daf; 
 
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,9 +34,10 @@ public class DatasetTest extends TestCase
      */
     public void testConversion() throws IOException
     {
-        FileInputStream fis = new FileInputStream("SampleRT.xml");
+        InputStream fis = DatasetTest.class.getResourceAsStream("/SampleRT.xml");
         byte[] rtxml = IOUtils.toByteArray(fis);
         List<byte[]> rtsxml = new ArrayList<byte[]>();
+        rtsxml.add(rtxml);
         rtsxml.add(rtxml);
         FileOutputStream rtjson_fos = new FileOutputStream("testConversion_output.json");
         
