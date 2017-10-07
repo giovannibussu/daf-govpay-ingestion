@@ -47,6 +47,5 @@ public class DatasetTest extends TestCase
         // TODO validare il json rispetto al data schema
         // Non è al momento disponibile un validatore
         // Viene fatta una validazione ad occhio.....
-
     }
 }
