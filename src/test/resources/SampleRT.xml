@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:RT xmlns:ns2="http://www.digitpa.gov.it/schemas/2011/Pagamenti/"
+	xmlns:ns3="http://www.digitpa.gov.it/schemas/2011/Pagamenti/Revoche/"
+	xmlns:ns4="http://ws.pagamenti.telematici.gov/">
+	<ns2:versioneOggetto>6.2</ns2:versioneOggetto>
+	<ns2:dominio>
+		<ns2:identificativoDominio>00341620508</ns2:identificativoDominio>
+		<ns2:identificativoStazioneRichiedente>GovPay</ns2:identificativoStazioneRichiedente>
+	</ns2:dominio>
+	<ns2:identificativoMessaggioRicevuta>9d68ca249b3f492c862a64aadf267926</ns2:identificativoMessaggioRicevuta>
+	<ns2:dataOraMessaggioRicevuta>2017-02-15T14:42:12+01:00</ns2:dataOraMessaggioRicevuta>
+	<ns2:riferimentoMessaggioRichiesta>9d68ca249b3f492c862a64aadf267926</ns2:riferimentoMessaggioRichiesta>
+	<ns2:riferimentoDataRichiesta>2017-02-15+01:00</ns2:riferimentoDataRichiesta>
+	<ns2:istitutoAttestante>
+		<ns2:identificativoUnivocoAttestante>
+			<ns2:tipoIdentificativoUnivoco>G</ns2:tipoIdentificativoUnivoco>
+			<ns2:codiceIdentificativoUnivoco>idsym_govpay</ns2:codiceIdentificativoUnivoco>
+		</ns2:identificativoUnivocoAttestante>
+		<ns2:denominazioneAttestante>SIMULATORE PSP per GovPay</ns2:denominazioneAttestante>
+	</ns2:istitutoAttestante>
+	<ns2:enteBeneficiario>
+		<ns2:identificativoUnivocoBeneficiario>
+			<ns2:tipoIdentificativoUnivoco>G</ns2:tipoIdentificativoUnivoco>
+			<ns2:codiceIdentificativoUnivoco>00341620508</ns2:codiceIdentificativoUnivoco>
+		</ns2:identificativoUnivocoBeneficiario>
+		<ns2:denominazioneBeneficiario>Comune di Pisa</ns2:denominazioneBeneficiario>
+		<ns2:capBeneficiario>56120</ns2:capBeneficiario>
+		<ns2:civicoBeneficiario>1</ns2:civicoBeneficiario>
+		<ns2:indirizzoBeneficiario>Via degli Uffizi</ns2:indirizzoBeneficiario>
+		<ns2:localitaBeneficiario>Pisa</ns2:localitaBeneficiario>
+		<ns2:provinciaBeneficiario>Pisa</ns2:provinciaBeneficiario>
+	</ns2:enteBeneficiario>
+	<ns2:soggettoVersante>
+		<ns2:identificativoUnivocoVersante>
+			<ns2:tipoIdentificativoUnivoco>M</ns2:tipoIdentificativoUnivoco>
+			<ns2:codiceIdentificativoUnivoco>RSSMRA85T10A562S</ns2:codiceIdentificativoUnivoco>
+		</ns2:identificativoUnivocoVersante>
+		<ns2:anagraficaVersante>RSSMRA85T10A562S</ns2:anagraficaVersante>
+		<ns2:e-mailVersante>nardi@link.it</ns2:e-mailVersante>
+	</ns2:soggettoVersante>
+	<ns2:soggettoPagatore>
+		<ns2:identificativoUnivocoPagatore>
+			<ns2:tipoIdentificativoUnivoco>F</ns2:tipoIdentificativoUnivoco>
+			<ns2:codiceIdentificativoUnivoco>RSSMRA85T10A562S</ns2:codiceIdentificativoUnivoco>
+		</ns2:identificativoUnivocoPagatore>
+		<ns2:anagraficaPagatore>Rossi Mario</ns2:anagraficaPagatore>
+	</ns2:soggettoPagatore>
+	<ns2:datiPagamento>
+		<ns2:codiceEsitoPagamento>0</ns2:codiceEsitoPagamento>
+		<ns2:importoTotalePagato>100.01</ns2:importoTotalePagato>
+		<ns2:identificativoUnivocoVersamento>123400000000169</ns2:identificativoUnivocoVersamento>
+		<ns2:CodiceContestoPagamento>150220171442631012</ns2:CodiceContestoPagamento>
+		<ns2:datiSingoloPagamento>
+			<ns2:singoloImportoPagato>100.01</ns2:singoloImportoPagato>
+			<ns2:dataEsitoSingoloPagamento>2017-02-15+01:00</ns2:dataEsitoSingoloPagamento>
+			<ns2:identificativoUnivocoRiscossione>idRisc-123400000000169-0</ns2:identificativoUnivocoRiscossione>
+			<ns2:causaleVersamento>/RFB/123400000000169/100.01</ns2:causaleVersamento>
+			<ns2:datiSpecificiRiscossione>2/1.01.01.06.001</ns2:datiSpecificiRiscossione>
+		</ns2:datiSingoloPagamento>
+	</ns2:datiPagamento>
+</ns2:RT>
