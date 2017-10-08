@@ -36,6 +36,7 @@
 			<ns2:codiceIdentificativoUnivoco>RSSMRA85T10A562S</ns2:codiceIdentificativoUnivoco>
 		</ns2:identificativoUnivocoVersante>
 		<ns2:anagraficaVersante>RSSMRA85T10A562S</ns2:anagraficaVersante>
+		<ns2:capVersante>56100</ns2:capVersante>
 		<ns2:e-mailVersante>nardi@link.it</ns2:e-mailVersante>
 	</ns2:soggettoVersante>
 	<ns2:soggettoPagatore>
