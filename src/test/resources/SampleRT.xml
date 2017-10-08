@@ -2,7 +2,7 @@
 <RT xmlns="http://www.digitpa.gov.it/schemas/2011/Pagamenti/" xmlns:daf="http://developers.italia.it/daf">
 	<versioneOggetto>6.2</versioneOggetto>
 	<dominio>
-		<identificativoDominio>${codiceIdentificativoUnivocoBeneficirio}</identificativoDominio>
+		<identificativoDominio>#codiceIdentificativoUnivocoBeneficiario#</identificativoDominio>
 		<identificativoStazioneRichiedente>GovPay</identificativoStazioneRichiedente>
 	</dominio>
 	<identificativoMessaggioRicevuta>UUID-ABCD1234567890</identificativoMessaggioRicevuta>
@@ -19,11 +19,11 @@
 	<enteBeneficiario>
 		<identificativoUnivocoBeneficiario>
 			<tipoIdentificativoUnivoco>G</tipoIdentificativoUnivoco>
-			<codiceIdentificativoUnivoco>${codiceIdentificativoUnivocoBeneficirio}</codiceIdentificativoUnivoco>
+			<codiceIdentificativoUnivoco>#codiceIdentificativoUnivocoBeneficiario#</codiceIdentificativoUnivoco>
 		</identificativoUnivocoBeneficiario>
-		<denominazioneBeneficiario>${denominazioneBeneficiario}</denominazioneBeneficiario>
-		<daf:geoLat>${geoLatBeneficiario}</daf:geoLat>
-		<daf:geoLng>${geoLngBeneficiario}</daf:geoLng>
+		<denominazioneBeneficiario>#denominazioneBeneficiario#</denominazioneBeneficiario>
+		<daf:geoLat>#geoLatBeneficiario#</daf:geoLat>
+		<daf:geoLng>#geoLngBeneficiario#</daf:geoLng>
 	</enteBeneficiario>
 	<soggettoPagatore>
 		<identificativoUnivocoPagatore>
@@ -43,6 +43,7 @@
 			<identificativoUnivocoRiscossione>idRisc-123400000000169-0</identificativoUnivocoRiscossione>
 			<causaleVersamento>/RFB/123400000000169/100.01</causaleVersamento>
 			<datiSpecificiRiscossione>2/1.01.01.06.001</datiSpecificiRiscossione>
+			<commissioniApplicatePSP>#commissioniApplicatePSP#</commissioniApplicatePSP>
 		</datiSingoloPagamento>
 	</datiPagamento>
 </RT>
